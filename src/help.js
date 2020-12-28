@@ -62,9 +62,9 @@ const help = (prefix) => {
 ┣➥ *${prefix}nsfwneko*
 ┣➥ *${prefix}loli*
 ┃ Note :
-┃*Fitur Ini Khusus Di Dalam Group 
-┃Jika ingin mengaktifkan nya ketik
-┃nsfw1 kalo mau di nonaktifkan nsfw0*
+┃*Fitur Ini Khusus Di Dalam Group*
+┃*Jika ingin mengaktifkan nya ketik*
+┃*nsfw 1 kalo mau di nonaktifkan nsfw 0*
 ┣━━━°❀ ❬ COMMAND DOWNLOADER ❭ ❀°━━⊱
 ┃
 ┣➥ *$ytsearch* [search yt]
