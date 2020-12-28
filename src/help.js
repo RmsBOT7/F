@@ -48,15 +48,17 @@ const help = (prefix) => {
 ┃
 ┣━━━━°❀🔗 ❬ COMMAND NSFW ❭ 🔗❀°━━━⊱
 ┃
-┣➥ *${prefix}loli*
+┣➥ *${prefix}pokemon*
 ┣➥ *${prefix}waifu*
+┣➥ *${prefix}waifu2*
 ┣➥ *${prefix}randomhentai*
 ┣➥ *${prefix}nsfwtrap*
 ┣➥ *${prefix}nsfwloli*
 ┣➥ *${prefix}nsfwneko*
 ┣➥ *${prefix}loli*
 ┃ Note :
-┃*Jika ingin mengaktifkan nya ketik
+┃*Fitur Ini Khusus Di Dalam Group 
+┃Jika ingin mengaktifkan nya ketik
 ┃nsfw1 kalo mau di nonaktifkan nsfw0*
 ┣━━━°❀ ❬ COMMAND DOWNLOADER ❭ ❀°━━⊱
 ┃
@@ -78,6 +80,10 @@ const help = (prefix) => {
 ┣➥ *${prefix}nsfw* [1/0]
 ┣➥ *${prefix}simih* [1/0]
 ┣➥ *${prefix}groupinfo*
+┣➥ *${prefix}otagall*
+┣➥ *${prefix}otagall2*
+┣➥ *${prefix}otagall3*
+┣➥ *${prefix}tagall*
 ┃
 ┣━━━━━°❀ ❬ 𝙊𝙒𝙉𝙀𝙍 ❭ ❀°━━━━⊱
 ┃
@@ -100,6 +106,19 @@ const help = (prefix) => {
 ┣➥ *${prefix}fitnah*
 ┣➥ *${prefix}tiktokstalk*
 ┣➥ *${prefix}url2img*
+┣➥ *${prefix}toimg* [Tag Sticker]
+┣➥ *${prefix}artinama* [Nama]
+┣➥ *${prefix}kbbi* [Text]
+┣➥ *${prefix}ceckjodoh* [Gw & Lo]
+┣➥ *${prefix}igstalk* [Username]
+┣➥ *${prefix}shorturl* [Url]
+┣➥ *${prefix}infocuaca* [Daerah]
+┣➥ *${prefix}infogempa*
+┣➥ *${prefix}wiki* [Text]
+┣➥ *${prefix}joox* [Nama Lagu]
+┣➥ *${prefix}chord* [Lirik]
+┣➥ *${prefix}wiki* [Text]
+┣➥ *${prefix}cerpen*
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
 ┃ *Follow IG* ~ItsmeikyXSec404~
