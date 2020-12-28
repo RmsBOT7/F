@@ -17,9 +17,9 @@ const help = (prefix) => {
 ┣━━━°❀ ❬ DONASI | BESTFREND ❭ ❀°━━━⊱
 ┃
 ┣➥ *${prefix}donasi*
-┣➥ *{prefix}Support Team Sunda XPloit Indonesia📣*
-┣➥ *{prefix}Support Bot ITSMEIKY*
-┣➥ *{prefix}Web BOT : http://itsmeiky.skom.id/*
+┣➥ *Support Team Sunda XPloit Indonesia📣*
+┣➥ *Support Bot ITSMEIKY*
+┣➥ *Web BOT : http://itsmeiky.skom.id/*
 ┃
 ┣━━━°❀ ❬ UPDATE COMMAND ❭ ❀°━━━⊱
 ┃
@@ -28,6 +28,8 @@ const help = (prefix) => {
 ┣➥ *${prefix}quotes*
 ┣➥ *${prefix}lirik*
 ┣➥ *${prefix}bucin*
+┣➥ *${prefix}indohot*
+┣➥ *${prefix}persengay*
 ┣➥ *${prefix}wolflogo*
 ┣➥ *${prefix}lionlogo*
 ┣➥ *${prefix}tebakgambar*
@@ -53,12 +55,14 @@ const help = (prefix) => {
 ┣➥ *${prefix}nsfwloli*
 ┣➥ *${prefix}nsfwneko*
 ┣➥ *${prefix}loli*
-┃Jika Inging mengaktifkan nya ketik
-┃nsfw1 kalo mau di nonaktifkan nsfw0
+┃ Note :
+┃*Jika ingin mengaktifkan nya ketik
+┃nsfw1 kalo mau di nonaktifkan nsfw0*
 ┣━━━°❀ ❬ COMMAND DOWNLOADER ❭ ❀°━━⊱
 ┃
 ┣➥ *ytsearch* [search yt]
 ┣➥ *ytmp3* [link]
+┣➥ *ytmp4* [link]
 ┣➥ *tiktok* [link]
 ┃
 ┣━━━━°❀ ❬ GROUB ONLY ❭ ❀°━━━━⊱
@@ -98,7 +102,13 @@ const help = (prefix) => {
 ┣➥ *${prefix}url2img*
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
-┃ ${prefix}*Follow IG* ~ItsmeikyXSec404~
+┃ *Follow IG* ~ItsmeikyXSec404~
+┃ *Group ITSMEIKY BOT* : 
+┃ https://chat.whatsapp.com/IABVod4NWrpB4PIl5rRxRy
+┃ *Official Website* :
+┃ http://itsmeiky.skom.id/
+┃ *Tools Official* :
+┃ https://tools.sundaxploitindonesiaa.my.id
 ┗━━━━━━━━━━━━━━━━━━━━`
 }
 exports.help = help
