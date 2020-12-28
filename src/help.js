@@ -17,6 +17,7 @@ const help = (prefix) => {
 ┣━━━°❀ ❬ DONASI | BESTFREND ❭ ❀°━━━⊱
 ┃
 ┣➥ *${prefix}donasi*
+┣➥ *${prefix}info*
 ┣➥ *Support Team Sunda XPloit Indonesia📣*
 ┣➥ *Support Bot ITSMEIKY*
 ┣➥ *Web BOT : http://itsmeiky.skom.id/*
