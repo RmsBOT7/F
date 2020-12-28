@@ -60,10 +60,10 @@ const help = (prefix) => {
 ┃nsfw1 kalo mau di nonaktifkan nsfw0*
 ┣━━━°❀ ❬ COMMAND DOWNLOADER ❭ ❀°━━⊱
 ┃
-┣➥ *ytsearch* [search yt]
-┣➥ *ytmp3* [link]
-┣➥ *ytmp4* [link]
-┣➥ *tiktok* [link]
+┣➥ *$ytsearch* [search yt]
+┣➥ *$ytmp3* [link]
+┣➥ *$ytmp4* [link]
+┣➥ *$tiktok* [link]
 ┃
 ┣━━━━°❀ ❬ GROUB ONLY ❭ ❀°━━━━⊱
 ┃
