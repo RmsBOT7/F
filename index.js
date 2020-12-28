@@ -1302,7 +1302,7 @@ async function starts() {
 					if (args.length < 1) return reply('Yang mau di tulis apaan?')
 					tulis = body.slice(6)
 					reply(mess.wait)
-					buffer = await getBuffer(`https://api.vhtear.com/write?text=${tulis}&apikey={apikey}`)
+					buffer = await getBuffer(`https://alfians-api.herokuapp.com/nulis?text=${teks}`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ketahuan guru mampus lu'})
 					break
 				case 'text3d':
@@ -1324,6 +1324,12 @@ async function starts() {
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/phblogo?text1=${teks}&text2==${teks}`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	breakcase 'joker':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://tobz-api.herokuapp.com/api/textpro?theme=jokerlogo&text=${teks}`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 			    case 'lovemake':
