@@ -820,6 +820,16 @@ async function starts() {
 						reply('❌ *ERROR* ❌')
 					}
 					break
+			    case 'loli':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/waifu`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
 			    case 'animehug':
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hug`, {method: 'get'})
