@@ -760,7 +760,7 @@ async function starts() {
 					break
 				case 'loli':
 				    try {
-						res = await fetchJson(`https://api.lolis.life/random`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko, {method: 'get'})
 						buffer = await getBuffer(res.url)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Citai Lolimu'})
 					} catch (e) {
@@ -945,7 +945,7 @@ async function starts() {
 					break
 			    case 'joox':
 				if (args.length < 1) return reply('Nama lagunya apa kak?')
-                    anu = await fetchJson(`https://api.vhtear.com/ytmp3?query=${body.slice(6)}&apikey={apikey}`)
+                    anu = await fetchJson(`https://tobz-api.herokuapp.com/api/joox?q=${body.slice(6)}`)
 					buffer = await getBuffer(anu.result.mp3)
 					client.sendMessage(from, buffer, audio, {mimetype: 'audio/mp4', filename: `${anu.result.judul}.mp3`, quoted: mek, caption: hasil, ptt: false})
 					break
@@ -953,7 +953,7 @@ async function starts() {
                     if (args.length < 1) return reply('teks nya mana om?')
                     teks = body.slice(5)
                     reply(mess.wait)
-                    anu = await fetchJson(`https://st4rz.herokuapp.com/api/wiki?q=`, {method: 'get'})
+                    anu = await fetchJson(`https://tobz-api.herokuapp.com/api/wiki?q=`, {method: 'get'})
                     if (anu.error) return reply(anu.error)
                     buff = await getBuffer(anu.result)
                     hasil = `${anu.result}`
@@ -1219,7 +1219,7 @@ async function starts() {
 					if (args.length < 1) return reply('Masukan username mu!!')
 					ige = body.slice(9)
 					reply(mess.wait)
-					anu = await fetchJson(`https://api.vhtear.com/igprofile?query=${ige}&apikey={apikey}`, {method: 'get'})
+					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/stalk?username=${ige}`, {method: 'get'})
 					buffer = await getBuffer(anu.result.picture)
 					capt = `User Ditemukan!!\n\n*➸ Nama :* ${anu.result.full_name}\n*➸ Username :* ${anu.result.username}\n*➸ Followers :* ${anu.result.follower}\n*➸ Mengikuti :* ${anu.result.follow}\n*➸ Jumlah Post :* ${anu.result.post_count}\n*➸ Private :* ${anu.result.is_private}\n*➸ Bio :* ${anu.result.biography}`
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: capt})
@@ -1377,7 +1377,7 @@ async function starts() {
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 Mention All 〙✪══'+teks+'╚═〘 XP-TN BOT 〙', members_id, true)
+					mentions('╔══✪〘 Mention All 〙✪══'+teks+'╚═〘 ITSMEIKY BOT 〙', members_id, true)
 					break
 				case 'clearall':
 					if (!isOwner) return reply('Kamu siapa?')
