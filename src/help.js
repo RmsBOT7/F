@@ -11,6 +11,7 @@ const help = (prefix) => {
 ┣━━━°❀ ❬ STICKER COMMAND ❭ ❀°━━━⊱
 ┃
 ┣➥ *${prefix}sticker*
+┣➥ *${prefix}stickergif*
 ┣➥ *${prefix}tsticker*
 ┣➥ *${prefix}nulis*
 ┃
