@@ -719,7 +719,7 @@ async function starts() {
                          text: teks1,
                          contextInfo: {mentionedJid: [nomor]},
                      }
-                    client.sendMessage('6289655478810@s.whatsapp.net', options, text, {quoted: mek})
+                    client.sendMessage('6281281872699@s.whatsapp.net', options, text, {quoted: mek})
                     reply('Masalah telah di laporkan ke owner BOT, laporan palsu/main2 tidak akan ditanggapi.')
                     break
 				case 'meme':
@@ -753,6 +753,76 @@ async function starts() {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nekonime`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai nekonime'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'animecry':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/cry`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'animekiss':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/kiss`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'nsfwtrap':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'nsfwneko':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'nsfwblowjob':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'hentai':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'animehug':
+				    try {
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hug`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
