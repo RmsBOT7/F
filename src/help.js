@@ -38,7 +38,7 @@ const help = (prefix) => {
 ┣➥ *${prefix}caklontong*
 ┣➥ *${prefix}pornhub <teks>*
 ┣➥ *${prefix}family100*
-┣➥ *${prefix}game*
+┣➥ *${prefix}joker* <teks>
 ┣➥ *${prefix}textscreen <teks>*
 ┣➥ *${prefix}tahta <teks>*
 ┣➥ *${prefix}rtext <teks>*
