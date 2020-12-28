@@ -34,7 +34,9 @@ const help = (prefix) => {
 ┣➥ *${prefix}wolflogo*
 ┣➥ *${prefix}lionlogo*
 ┣➥ *${prefix}tebakgambar*
+┣➥ *${prefix}blackpink <teks>*
 ┣➥ *${prefix}caklontong*
+┣➥ *${prefix}pornhub <teks>*
 ┣➥ *${prefix}family100*
 ┣➥ *${prefix}game*
 ┣➥ *${prefix}textscreen <teks>*
