@@ -1048,7 +1048,7 @@ async function starts() {
 				case 'ramalhp':
 					if (args.length < 1) return reply('teks nya mana om')
 					kj = body.slice(12)
-					anu = await fetchJson(`https://api.vhtear.com/nomerhoki?no=${kj}&apikey={apikey}`)
+					anu = await fetchJson(`https://docs-jojo.herokuapp.com/api/infonomor?no=${kj}`)
 					reply(anu.result.hasil)
 					break
 				case 'textscreen':
@@ -1312,6 +1312,20 @@ async function starts() {
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${teks}`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
+				case 'blackpink':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/blackpink?text=${teks}`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	break
+				case 'pornhub':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/phblogo?text1=${teks}&text2==${teks}`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	break
 			    case 'lovemake':
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
@@ -1515,7 +1529,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *XPTN Broadcast* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *Itsmeiky BOT Broadcast* ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
