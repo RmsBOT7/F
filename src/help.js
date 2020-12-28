@@ -1,5 +1,7 @@
 const help = (prefix) => { 
-	return `                 
+	return `  
+🔰 -----[ *MENU Itsmeiky BOT V3* ]----- 🔰
+               
 ┏━━━°❀ ❬ OWNER CIMMAND ❭ ❀°━━━┓
 ┃
 ┏❉ *${prefix}bc*
@@ -15,9 +17,9 @@ const help = (prefix) => {
 ┣━━━°❀ ❬ DONASI | BESTFREND ❭ ❀°━━━⊱
 ┃
 ┣➥ *${prefix}donasi*
-┣➥ *${prefix}Thanks To #Alfa📣*
-┣➥ *${prefix}Support Bot XPTN*
-┣➥ *${prefix}Web Api : xptnbotapi.herokuapp.com*
+┣➥ *{prefix}Support Team Sunda XPloit Indonesia📣*
+┣➥ *{prefix}Support Bot ITSMEIKY*
+┣➥ *{prefix}Web BOT : http://itsmeiky.skom.id/*
 ┃
 ┣━━━°❀ ❬ UPDATE COMMAND ❭ ❀°━━━⊱
 ┃
@@ -96,7 +98,7 @@ const help = (prefix) => {
 ┣➥ *${prefix}url2img*
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
-┃ ${prefix}*Follow IG* ~_xptn~
+┃ ${prefix}*Follow IG* ~ItsmeikyXSec404~
 ┗━━━━━━━━━━━━━━━━━━━━`
 }
 exports.help = help
