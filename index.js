@@ -75,7 +75,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Halo @${num.split('@')[0]}\nSelamat datang di group Jangan Lupa INTRO Yang Baru Masuk Jangan lupa save nomor owner bot ketik $creator :v *${mdata.subject}*`
+				teks = `Halo @${num.split('@')[0]}\nSelamat Datatang Di Group ${groupName} Semoga Betah Ya Bro Jika Belum Save Nomer Admin Silahkan Save Dengan Ketik $creator\n\n*NAME* : ${groupName}\n*MEMBER* : ${groupMembers.length}\n*ADMIN* : ${groupAdmins.length}\n*DESK* : ${groupDesc}`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
@@ -85,7 +85,7 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `Semoga Tenang Di Alam Sana @${num.split('@')[0]}👋`
+				teks = `Selamat Tinggal Beban Ortu Semoga Tenang Di Alam Sana @${num.split('@')[0]}👋`
 				let buff = await getBuffer(ppimg)
 				client.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			}
