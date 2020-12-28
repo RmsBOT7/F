@@ -760,7 +760,7 @@ async function starts() {
 					break
 				case 'loli':
 				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
 						buffer = await getBuffer(res.url)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Citai Lolimu'})
 					} catch (e) {
