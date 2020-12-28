@@ -52,6 +52,11 @@ const help = (prefix) => {
 ┣➥ *${prefix}waifu*
 ┣➥ *${prefix}waifu2*
 ┣➥ *${prefix}randomhentai*
+┣➥ *${prefix}animecry*
+┣➥ *${prefix}hentai*
+┣➥ *${prefix}animehug*
+┣➥ *${prefix}animekiss*
+┣➥ *${prefix}nekonime*
 ┣➥ *${prefix}nsfwtrap*
 ┣➥ *${prefix}nsfwloli*
 ┣➥ *${prefix}nsfwneko*
@@ -98,6 +103,8 @@ const help = (prefix) => {
 ┃
 ┣━━━━°❀ ❬ 𝙊𝙏𝙃𝙀𝙍 ❭ ❀°━━━━━⊱
 ┃
+┣➥ *${prefix}truth*
+┣➥ *${prefix}dare*
 ┣➥ *${prefix}ytsearch*
 ┣➥ *${prefix}listadmin*
 ┣➥ *${prefix}blocklist*
