@@ -83,6 +83,8 @@ const help = (prefix) => {
 ┣➥ *${prefix}setpp*
 ┣➥ *${prefix}demote* [tag]
 ┣➥ *${prefix}promote* [tag]
+┣➥ *${prefix}groupinfo*
+┣➥ *${prefix}linkgroup*
 ┣➥ *${prefix}setpp*
 ┣➥ *${prefix}group* [buka/tutup]
 ┣➥ *${prefix}welcome* [1/0]
