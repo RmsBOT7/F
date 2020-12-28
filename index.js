@@ -1323,9 +1323,10 @@ async function starts() {
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
-                    buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/phblogo?text1=${teks}&text2==${teks}`, {method: 'get'})
+                    buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/phblogo?text1=${teks}&text2=${teks}`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
-			     	breakcase 'joker':
+			     	break
+                                case 'joker':
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
