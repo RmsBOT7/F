@@ -865,12 +865,56 @@ async function starts() {
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
-					}
+		             		}
 					break
 			    case 'nsfwneko':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'animecry':
+				    try {
+						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/cry`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'hentai':
+				    try {
+						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'animehug':
+				    try {
+						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hug`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'animekiss':
+				    try {
+						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/kiss`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
 					} catch (e) {
