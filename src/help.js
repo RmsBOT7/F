@@ -64,7 +64,7 @@ const help = (prefix) => {
 ┣➥ *${prefix}nsfwtrap*
 ┣➥ *${prefix}nsfwloli*
 ┣➥ *${prefix}nsfwneko*
-┣➥ *${prefix}loli*
+┣➥ *${prefix}loli1*
 ┃ Note :
 ┃*Fitur Ini Khusus Di Dalam Group*
 ┃*Jika ingin mengaktifkan nya ketik*
