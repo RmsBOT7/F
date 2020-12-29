@@ -780,6 +780,16 @@ async function starts() {
 						reply('❌ *ERROR* ❌')
 					}
 					break
+			    case 'meme':
+				    try {
+						res = await fetchJson(`https://api.fdci.se/rep.php?gambar`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
 			    case 'nsfwtrap':
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
@@ -1031,7 +1041,7 @@ async function starts() {
 				case 'ytmp3':
 					if (args.length < 1) return reply('Urlnya mana um?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
-					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/yta?url=${args[0]}`, {method: 'get'})
+					anu = await fetchJson(`https://alfians-api.herokuapp.com/api/yta?url=${args[0]}`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = `*Title* : ${anu.title}\n*Filesize* : ${anu.filesize}`
 					thumb = await getBuffer(anu.thumb)
@@ -1272,7 +1282,7 @@ async function starts() {
 				case 'ytmp4':
 					if (args.length < 1) return reply('Urlnya mana um?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
-					anu = await fetchJson(`https://tobz-api.herokuapp.com/api/ytv?url=${args[0]}`, {method: 'get'})
+					anu = await fetchJson(`https://alfians-api.herokuapp.com/api/ytv?url=${args[0]}`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = `*Title* : ${anu.title}`
 					thumb = await getBuffer(anu.thumb)
