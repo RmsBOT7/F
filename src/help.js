@@ -88,6 +88,7 @@ Nya Mari Kita Donasi Dengan ketik $donasi"
 ┣➥ *${prefix}setpp*
 ┣➥ *${prefix}group* [buka/tutup]
 ┣➥ *${prefix}welcome* [1/0]
+┣➥ *${prefix}listadmin*
 ┣➥ *${prefix}nsfw* [1/0]
 ┣➥ *${prefix}simih* [1/0]
 ┣➥ *${prefix}groupinfo*
