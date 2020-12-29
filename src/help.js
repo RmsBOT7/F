@@ -109,6 +109,7 @@ const help = (prefix) => {
 ┃
 ┣━━━━°❀ ❬ 𝙊𝙏𝙃𝙀𝙍 ❭ ❀°━━━━━⊱
 ┃
+┣➥ *${prefix}meme*
 ┣➥ *${prefix}truth*
 ┣➥ *${prefix}dare*
 ┣➥ *${prefix}ytsearch*
@@ -132,6 +133,9 @@ const help = (prefix) => {
 ┣➥ *${prefix}chord* [Lirik]
 ┣➥ *${prefix}wiki* [Text]
 ┣➥ *${prefix}cerpen*
+┣➥ *${prefix}watak*
+┣➥ *${prefix}ttp* [Text]
+┣➥ *${prefix}rate*
 ┃
 ┣━━━━━━━━━━━━━━━━━━━━
 ┃ *Follow IG* ~ItsmeikyXSec404~
