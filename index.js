@@ -561,6 +561,26 @@ async function starts() {
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
+                case 'wolflogo2':
+                      if (args.length < 1) return reply('Teks nya mana?')
+                      gh = body.slice(9)
+                      gl1 = gh.split("|")[0];
+                      gl2 = gh.split("|")[1];
+                      reply(mess.wait)
+                      anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo2&text1=${gl1}&text2=${gl2}`, {method: 'get'})
+                      buff = await getBuffer(anu.result)
+                      client.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                case 'neonlogo':
+                      if (args.length < 1) return reply('Teks nya mana?')
+                      gh = body.slice(9)
+                      gl1 = gh.split("|")[0];
+                      gl2 = gh.split("|")[1];
+                      reply(mess.wait)
+                      anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=neon_light&text1={gl1}&text2=${gl2}`, {method: 'get'})
+                      buff = await getBuffer(anu.result)
+                      client.sendMessage(from, buff, image, {quoted: mek})
+                      break
                 case 'lionlogo':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(9)
