@@ -1,7 +1,9 @@
 const help = (prefix) => { 
 	return `  
 🔰 -----[ *MENU Itsmeiky BOT V3* ]----- 🔰
-"Sebelum Gunakan Bot Alangkah Baik  
+
+Note :
+*Sebelum Gunakan Bot Alangkah Baik  
 Nya Mari Kita Donasi Dengan ketik $donasi"
 
 ┏━━━°❀ ❬ OWNER CIMMAND ❭ ❀°━━━┓
