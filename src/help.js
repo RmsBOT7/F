@@ -44,10 +44,7 @@ Nya Mari Kita Donasi Dengan ketik $donasi"
 ┣➥ *${prefix}pornhub <teks>*
 ┣➥ *${prefix}joker* <teks>
 ┣➥ *${prefix}nenlogo <teks> | <teks>*
-┣➥ *${prefix}rtext <teks>*
 ┣➥ *${prefix}glitch <teks> | <teks>*
-┣➥ *${prefix}party <teks>*
-┣➥ *${prefix}lovemake <teks>* | <teks>*
 ┣➥ *${prefix}artinama <nama>*
 ┃
 ┣━━━━°❀🔗 ❬ COMMAND NSFW ❭ 🔗❀°━━━⊱
@@ -118,7 +115,6 @@ Nya Mari Kita Donasi Dengan ketik $donasi"
 ┣➥ *${prefix}blocklist*
 ┣➥ *${prefix}simi*
 ┣➥ *${prefix}wait*
-┣➥ *${prefix}fitnah*
 ┣➥ *${prefix}tiktokstalk*
 ┣➥ *${prefix}url2img*
 ┣➥ *${prefix}toimg* [Tag Sticker]
