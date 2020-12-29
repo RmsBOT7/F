@@ -1677,7 +1677,7 @@ async function starts() {
 						client.groupDemoteAdmin(from, mentioned)
 					}
 					break
-				case 'listadmins':
+				case 'listadmin':
 					if (!isGroup) return reply(mess.only.group)
 					teks = `List admin of group *${groupMetadata.subject}*\nTotal : ${groupAdmins.length}\n\n`
 					no = 0
