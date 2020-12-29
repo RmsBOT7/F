@@ -1,7 +1,9 @@
 const help = (prefix) => { 
 	return `  
 🔰 -----[ *MENU Itsmeiky BOT V3* ]----- 🔰
-               
+"Sebelum Gunakan Bot Alangkah Baik  
+Nya Mari Kita Donasi Dengan ketik $donasi"
+
 ┏━━━°❀ ❬ OWNER CIMMAND ❭ ❀°━━━┓
 ┃
 ┏❉ *${prefix}bc*
@@ -33,22 +35,18 @@ const help = (prefix) => {
 ┣➥ *${prefix}indohot*
 ┣➥ *${prefix}persengay*
 ┣➥ *${prefix}wolflogo*
+┣➥ *${prefix}wolflogo2*
 ┣➥ *${prefix}lionlogo*
-┣➥ *${prefix}tebakgambar*
 ┣➥ *${prefix}blackpink <teks>*
 ┣➥ *${prefix}caklontong*
 ┣➥ *${prefix}pornhub <teks>*
-┣➥ *${prefix}family100*
 ┣➥ *${prefix}joker* <teks>
-┣➥ *${prefix}textscreen <teks>*
-┣➥ *${prefix}tahta <teks>*
+┣➥ *${prefix}nenlogo <teks> | <teks>*
 ┣➥ *${prefix}rtext <teks>*
 ┣➥ *${prefix}glitch <teks> | <teks>*
 ┣➥ *${prefix}party <teks>*
-┣➥ *${prefix}lovemake <teks>*
-┣➥ *${prefix}primbonjodoh <teks> | <teks>*
+┣➥ *${prefix}lovemake <teks>* | <teks>*
 ┣➥ *${prefix}artinama <nama>*
-┣➥ *${prefix}ramalhp <nomor>*
 ┃
 ┣━━━━°❀🔗 ❬ COMMAND NSFW ❭ 🔗❀°━━━⊱
 ┃
@@ -145,6 +143,9 @@ const help = (prefix) => {
 ┃ http://itsmeiky.skom.id/
 ┃ *Tools Official* :
 ┃ https://tools.sundaxploitindonesiaa.my.id
+┣━━━━━━━━━━━━━━━━━━━━
+┃Command Hentai Jeda 1 Menit
+┃Thanks For Use Itsmeiky Bot V3
 ┗━━━━━━━━━━━━━━━━━━━━`
 }
 exports.help = help
