@@ -1026,6 +1026,27 @@ async function starts() {
 					icon = await getBuffer(anu.icon)
 					client.sendMessage(from, icon, image, {quoted: mek})
 					break
+				case 'spamsms':
+					if (args.length < 1) return reply('Masukan Nomer Target Nya Lord')
+					tels = body.slice(9)
+					reply(mess.wait)
+					anu = await fetchJson(`https://arugaz.herokuapp.com/api/spamsms?no=${tels}&jum=10`, {method: 'get'})
+					reply(anu.logs)
+					break	
+				case 'spamgmail':
+					if (args.length < 1) return reply('Masukan Email Target Nya Lord')')
+					tels = body.slice(11)
+					reply(mess.wait)
+					anu = await fetchJson(`https://arugaz.herokuapp.com/api/spamgmail?target=${tels}&jum=10`, {method: 'get'})
+					reply(anu.logs)
+					break	
+				case 'spamcall':
+					if (args.length < 1) return reply('Masukan Nomer Target Nya Lord')')
+					tels = body.slice(10)
+					reply(mess.wait)
+					anu = await fetchJson(`https://arugaz.herokuapp.com/api/spamcall?no=${tels}`, {method: 'get'})
+					reply(anu.logs)
+					break		
 			    case 'randomanime':
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/randomanime`, {method: 'get'})
