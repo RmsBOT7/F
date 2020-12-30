@@ -41,7 +41,9 @@ Nya Mari Kita Donasi Dengan ketik $donasi"
 ┣➥ *${prefix}lionlogo*
 ┣➥ *${prefix}blackpink <teks>*
 ┣➥ *${prefix}caklontong*
-┣➥ *${prefix}pornhub <teks>*
+┣➥ *${prefix}phlogo <teks>*
+┣➥ *${prefix}epep <teks>*
+┣➥ *${prefix}water <teks>*
 ┣➥ *${prefix}joker* <teks>
 ┣➥ *${prefix}nenlogo <teks> | <teks>*
 ┣➥ *${prefix}glitch <teks> | <teks>*
