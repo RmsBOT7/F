@@ -1137,7 +1137,7 @@ async function starts() {
 					break
 				case 'hilih':
 					if (args.length < 1) return reply('Teksnya mana um?')
-					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/hilih?teks=${body.slice(7)}`, {method: 'get'})
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/hilihmaker?text=${body.slice(7)}&apikey=aqip2020`, {method: 'get'})
 					reply(anu.result)
 					break
 				case 'ytmp3':
@@ -1444,11 +1444,32 @@ async function starts() {
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${teks}`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
-				case 'blackpink':
+				case 'colortext':
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/colortext?text=${teks}&apikey=aqip2020`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	break
+				case 'blackpink':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 15) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 15 kalimat', text, {quoted: mek})
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/blackpink?text=${teks}`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	break
+				case 'grafity':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 15) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 15 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/grafiti?text=${teks}&apikey=aqip2020`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	break
+				case 'leavest':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 15) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 15 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/leavest?text=${teks}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'pornhub':
