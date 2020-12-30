@@ -551,6 +551,24 @@ async function starts() {
 					buffer = await getBuffer(anu.result.imgUrl)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
+				case 'water':
+					if (args.length < 1) return reply(mess.blank)
+					tels = body.slice(7)
+					if (tels.length > 15) return reply('Teksnya kepanjangan, maksimal 20 karakter')
+					reply(mess.wait)
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/tfire?text=${tels}&apikey=aqip2020`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'epep':
+					if (args.length < 1) return reply(mess.blank)
+					tels = body.slice(7)
+					if (tels.ength > 15) return reply('Teksnya kepanjangan, maksimal 20 karakter')
+					reply(mess.wait)
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/epep?text=${tels}&apikey=aqip2020`, {method: 'get'})
+					buff = await getBuffer(anu.result)
+					client.sendMessage(from, buff, image, {quoted: mek})
+					break
                 case 'wolflogo':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(9)
@@ -1370,13 +1388,6 @@ async function starts() {
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${teks}`, {method: 'get'})
-                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
-			     	break
-				case 'epep':
-              	    if (args.length < 1) return reply('teksnya mana kak?')
-                    teks = `${body.slice(8)}`
-                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
-                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/epep?text=${teks}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'blackpink':
