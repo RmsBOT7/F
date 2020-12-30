@@ -109,7 +109,7 @@ Nya Mari Kita Donasi Dengan ketik $donasi"
 ┃
 ┣━━━━°❀ ❬ 𝙊𝙏𝙃𝙀𝙍 ❭ ❀°━━━━━⊱
 ┃
-┣➥ *${prefix}meme*
+┣➥ *${prefix}gtts id <text>*
 ┣➥ *${prefix}truth*
 ┣➥ *${prefix}dare*
 ┣➥ *${prefix}ytsearch*
