@@ -1034,14 +1034,14 @@ async function starts() {
 					reply(anu.logs)
 					break	
 				case 'spamgmail':
-					if (args.length < 1) return reply('Masukan Email Target Nya Lord')')
+					if (args.length < 1) return reply('Masukan Email Target Nya Lord')
 					tels = body.slice(11)
 					reply(mess.wait)
 					anu = await fetchJson(`https://arugaz.herokuapp.com/api/spamgmail?target=${tels}&jum=10`, {method: 'get'})
 					reply(anu.logs)
 					break	
 				case 'spamcall':
-					if (args.length < 1) return reply('Masukan Nomer Target Nya Lord')')
+					if (args.length < 1) return reply('Masukan Nomer Target Nya Lord')
 					tels = body.slice(10)
 					reply(mess.wait)
 					anu = await fetchJson(`https://arugaz.herokuapp.com/api/spamcall?no=${tels}`, {method: 'get'})
