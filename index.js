@@ -886,7 +886,7 @@ async function starts() {
 					break
 			    case 'nsfwtrap':
 				    try {
-						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/trap?&apiKey=administrator`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
@@ -896,7 +896,7 @@ async function starts() {
 					break
 			    case 'nsfwneko':
 				    try {
-						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/nsfwneko?&apiKey=administrator`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
@@ -916,7 +916,7 @@ async function starts() {
 					break
 			    case 'hentai':
 				    try {
-						res = await fetchJson(`http://melodicxt.herokuapp.com//api/random/hentai?&apiKey=administrator`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
@@ -1039,7 +1039,7 @@ async function starts() {
 			    case 'randomhentai':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/hentai?&apiKey=administrator`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'hentai teros'})
 					} catch (e) {
@@ -1072,7 +1072,7 @@ async function starts() {
 			    case 'nsfwneko':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/nsfwneko?&apiKey=administrator`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
 					} catch (e) {
@@ -1127,7 +1127,7 @@ async function starts() {
 				case 'nsfwtrap':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/trap?&apiKey=administrator`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
 					} catch (e) {
