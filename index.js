@@ -756,7 +756,7 @@ async function starts() {
 					break
                 case 'donasi':
 				case 'donate':
-					client.sendMessage(from, 'Mau donasi ya om?✨\n\n اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_\n\n*Ovo :* _0812-8187-2699_\n*Pulsa :* _0812-8187-2699_\n*Saweria :* _https://saweria.co/itsmeiky\n*Gopay :* _0821-2027-2969_', text, { quoted: mek })
+					client.sendMessage(from, '┏━━━━°❀ ❬ 𝘼𝘽𝙊𝙐𝙏 ❭ ❀°━━━━┓\n┃╔═══════════════════╗\n┏❉ *${prefix}info*\n┃❉ *${prefix}help*\n┗❉ *${prefix}creator*\n┃╚═══════════════════╝\n┣━━━━°❀ ❬ 𝗗𝗢𝗡𝗔𝗦𝗜 ❭ ❀°━━━⊱\n┃╔═══════════════════╗\n┃╠➥ *GOPAY:* 0821-2027-2969\n┃╠➥ *PULSA:* 0812-8652-3253\n┃╠➥ *OVO:* 0812-8187-2699\n┃╠➥*SAWERIA:* https://saweria.co/itsmeiky\n┃╚═══════════════════╝\n┣━━━━━━━━━━━━━━━━━━━━━⊱\n┣━━━━━━━━━━━━━━━━━━━━━┓\n┃  𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗜𝗧𝗦𝗠𝗘𝗜𝗞𝗬𝗫𝗦𝗘𝗖𝟰𝟬𝟰\n┗━━━━━━━━━━━━━━━━━━━━━┛', text, { quoted: mek })
 					break
                 case 'tes':
                    client.sendMessage(from, 'ok', text, {quoted: mek})
