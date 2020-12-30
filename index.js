@@ -944,6 +944,14 @@ async function starts() {
 					waifu = `*${anu.desc}`
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: waifu})
 					break
+			    case 'imagerondom':
+					reply(mess.wait)
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/estetikpic?apikey=aqip2020`, {method: 'get'})
+					if (anu.error) return reply(anu.error)
+					buffer = await getBuffer(anu.image)
+					waifu = `*${anu.desc}`
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: waifu})
+					break
 				case 'imoji':
 					reply(mess.wait)
 					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/emoji2png?emoji=`, {method: 'get'})
