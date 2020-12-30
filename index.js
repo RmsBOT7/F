@@ -820,7 +820,7 @@ async function starts() {
 					break
 			    case 'sketchimage':
 				    try {
-						res = await fetchJson(`https://zeksapi.herokuapp.com/api/sketchf?img=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgIdadeNVI4FGtyYN_v48XChUtZrbG2F58eA&usqp=CAU&apikey=aqip2020`, {method: 'get'})
+						res = await fetchJson(`https://zeksapi.herokuapp.com/api/sketchf?img=${teks}&apikey=aqip2020`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai nekonime'})
 					} catch (e) {
@@ -1428,29 +1428,29 @@ async function starts() {
 				case 'gpbuttonlogo':
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
-                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
-                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/tlight?text=${teks}&apikey=aqip2020`, {method: 'get'})
+                    if (teks.length > 20) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 20 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/tlight?text=${body.slice(8)}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'slvrplaybutton':
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
-                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
-                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/splaybutton?text=${teks}&apikey=aqip2020`, {method: 'get'})
+                    if (teks.length > 20) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 20 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/splaybutton?text=${body.slice(8)}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'pantailogo':
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
-                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/grafiti?text=${teks}&apikey=aqip2020`, {method: 'get'})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/grafiti?text=${body.slice(8)}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'lightlogo':
               	    if (args.length < 1) return reply('teksnya mana kak?')
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
-                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/tlight?text=${teks}&apikey=aqip2020`, {method: 'get'})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/tlight?text=${body.slice(8)}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'pornhub':
