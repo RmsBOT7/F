@@ -1030,7 +1030,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/randomanime`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni randomanime!'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Ngab Randomanime!'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -1039,9 +1039,9 @@ async function starts() {
 			    case 'randomhentai':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'hentai teros'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -1074,7 +1074,7 @@ async function starts() {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -1085,7 +1085,7 @@ async function starts() {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/cry`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -1096,7 +1096,7 @@ async function starts() {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -1107,7 +1107,7 @@ async function starts() {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hug`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -1118,7 +1118,7 @@ async function starts() {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/kiss`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -1129,7 +1129,7 @@ async function starts() {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
