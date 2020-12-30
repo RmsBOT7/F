@@ -820,13 +820,23 @@ async function starts() {
 					if (args.length < 1) return reply('teks nya mana om')
 					teks = body.slice(7)
 					reply(mess.wait)
-					anu = await fetchJson(`https://api.vhtear.com/walpaper?query=${teks}&apikey={apikey}`)
+					anu = await fetchJson(`http://melodicxt.herokuapp.com//api/random/wallpaper?&apiKey=administrator`)
 					buff = await getBuffer(anu.result.LinkImg)
 					client.sendMessage(from, buff, image, {quoted: mek})
 					break
 			    case 'nekonime':
 				    try {
 						res = await fetchJson(`https://arugaz.herokuapp.com/api/nekonime`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai nekonime'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ *ERROR* ❌')
+					}
+					break
+			    case 'walpaper':
+				    try {
+						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/wallpaper?&apiKey=administrator`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai nekonime'})
 					} catch (e) {
@@ -876,7 +886,7 @@ async function starts() {
 					break
 			    case 'nsfwtrap':
 				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
+						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/trap?&apiKey=administrator`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
@@ -886,7 +896,7 @@ async function starts() {
 					break
 			    case 'nsfwneko':
 				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
+						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/nsfwneko?&apiKey=administrator`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
@@ -906,7 +916,7 @@ async function starts() {
 					break
 			    case 'hentai':
 				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
+						res = await fetchJson(`http://melodicxt.herokuapp.com//api/random/hentai?&apiKey=administrator`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
@@ -1029,7 +1039,7 @@ async function starts() {
 			    case 'randomhentai':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
+						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/hentai?&apiKey=administrator`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'hentai teros'})
 					} catch (e) {
@@ -1062,7 +1072,7 @@ async function starts() {
 			    case 'nsfwneko':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
+						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/nsfwneko?&apiKey=administrator`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
 					} catch (e) {
@@ -1117,7 +1127,7 @@ async function starts() {
 				case 'nsfwtrap':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
+						res = await fetchJson(`http://melodicxt.herokuapp.com/api/random/trap?&apiKey=administrator`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ni anjim'})
 					} catch (e) {
@@ -1217,7 +1227,7 @@ async function starts() {
                    client.sendMessage(from, hasil, text, {quoted: mek})
                    break
                 case 'tebakgambar':
-					anu = await fetchJson(`https://api.vhtear.com/tebakgambar&apikey={apikey}`, {method: 'get'})
+					anu = await fetchJson(`http://melodicxt.herokuapp.com/api/tebak-gambar?&apiKey=administrator`, {method: 'get'})
 					buffer = await getBuffer(anu.result.soalImg)
 					setTimeout( () => {
 					client.sendMessage(from, '*➸ Jawaban :* '+anu.result.jawaban, text, {quoted: mek}) // ur cods
