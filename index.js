@@ -561,6 +561,16 @@ async function starts() {
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
+                case 'phlogo':
+                      if (args.length < 1) return reply('Teks nya mana?')
+                      gh = body.slice(9)
+                      gl1 = gh.split("|")[0];
+                      gl2 = gh.split("|")[1];
+                      reply(mess.wait)
+                      anu = await fetchJson(`https://zeksapi.herokuapp.com/api/phlogo?text1=${gl1}&text2=${gl2}&apikey=aqip2020`, {method: 'get'})
+                      buff = await getBuffer(anu.result)
+                      client.sendMessage(from, buff, image, {quoted: mek})
+                      break
                 case 'wolflogo2':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(9)
@@ -1279,7 +1289,7 @@ async function starts() {
                 case 'pinterest':
 					if (args.length < 1) return reply(mess.search)
 					pinte = body.slice(11)
-					anu = await fetchJson(`https://api.vhtear.com/pinterest?query=${pin}&apikey={apikey}`, {method: 'get'})
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/pin?q=${pin}&apikey=aqip2020`, {method: 'get'})
 					reply(mess.wait)
 					var pin = JSON.parse(JSON.stringify(anu.result));
 					var trest =  pin[Math.floor(Math.random() * pin.length)];
@@ -1352,7 +1362,7 @@ async function starts() {
 					if (args.length < 1) return reply('Yang mau di tulis apaan?')
 					tulis = body.slice(6)
 					reply(mess.wait)
-					buffer = await getBuffer(`https://alfians-api.herokuapp.com/nulis?text=${teks}`)
+					buffer = await getBuffer(`https://zeksapi.herokuapp.com/api/nulis?text=${tulis}&apikey=aqip2020`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ketahuan guru mampus lu'})
 					break
 				case 'text3d':
@@ -1360,6 +1370,13 @@ async function starts() {
                     teks = `${body.slice(8)}`
                     if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/text3d?text=${teks}`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	break
+				case 'epep':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/epep?text=${teks}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'blackpink':
