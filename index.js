@@ -1228,7 +1228,7 @@ async function starts() {
                    break
                 case 'tebakgambar':
 					anu = await fetchJson(`http://melodicxt.herokuapp.com/api/tebak-gambar?&apiKey=administrator`, {method: 'get'})
-					buffer = await getBuffer(anu.result.soalImg)
+					buffer = await getBuffer(anu.result.img)
 					setTimeout( () => {
 					client.sendMessage(from, '*➸ Jawaban :* '+anu.result.jawaban, text, {quoted: mek}) // ur cods
 					}, 30000) // 1000 = 1s,
