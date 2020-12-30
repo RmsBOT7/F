@@ -113,12 +113,12 @@ Nya Mari Kita Donasi Dengan ketik $donasi"
 ┣➥ *${prefix}truth*
 ┣➥ *${prefix}dare*
 ┣➥ *${prefix}ytsearch*
-┣➥ *${prefix}listadmin*
 ┣➥ *${prefix}blocklist*
 ┣➥ *${prefix}simi*
 ┣➥ *${prefix}wait*
 ┣➥ *${prefix}tiktokstalk*
 ┣➥ *${prefix}url2img*
+┣➥ *${prefix}imagerondom*
 ┣➥ *${prefix}toimg* [Tag Sticker]
 ┣➥ *${prefix}artinama* [Nama]
 ┣➥ *${prefix}kbbi* [Text]
