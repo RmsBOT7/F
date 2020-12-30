@@ -44,9 +44,8 @@ Nya Mari Kita Donasi Dengan ketik $donasi"
 ┣➥ *${prefix}phlogo <teks>*
 ┣➥ *${prefix}epep <teks>*
 ┣➥ *${prefix}snowlogo <teks> | <teks>*
-┣➥ *${prefix}lightlogo <teks>*
-┣➥ *${prefix}pantailogo <teks>*
-┣➥ *${prefix}slvrplaybutton <teks>*
+┣➥ *${prefix}gplaybutton <teks>*
+┣➥ *${prefix}splaybutton <teks>*
 ┣➥ *${prefix}water <teks>*
 ┣➥ *${prefix}joker* <teks>
 ┣➥ *${prefix}sketchimage* <teks>
