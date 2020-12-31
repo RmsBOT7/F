@@ -831,7 +831,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai nekonime'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'walpaper':
@@ -841,7 +841,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai nekonime'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'sketchimage':
@@ -851,7 +851,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai nekonime'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'animecry':
@@ -861,7 +861,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'animekiss':
@@ -871,7 +871,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'meme':
@@ -881,7 +881,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'nsfwtrap':
@@ -891,7 +891,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'nsfwneko':
@@ -901,7 +901,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'nsfwblowjob':
@@ -911,7 +911,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'hentai':
@@ -921,7 +921,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'loli':
@@ -931,7 +931,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'animehug':
@@ -941,7 +941,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 				case 'loli':
@@ -951,7 +951,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Citai Lolimu'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'imagetest':
@@ -961,7 +961,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai waifu!'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'waifu':
@@ -971,7 +971,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Ingat! Cintai waifu!'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'waifu2':
@@ -1054,106 +1054,106 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Ngab Randomanime!'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'randomhentai':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 				case 'nsfwloli':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwloli`, {method: 'get'})
 						buffer = await getBuffer(res.url)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'nsfwblowjob':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 		             		}
 					break
 			    case 'nsfwneko':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'animecry':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/cry`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'hentai':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'animehug':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hug`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 			    case 'animekiss':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/kiss`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 				case 'nsfwtrap':
 				    try {
-						if (!isNsfw) return reply('❌ *FALSE* ❌')
+						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('❌ *ERROR* ❌')
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
 				case 'hilih':
@@ -1179,7 +1179,7 @@ async function starts() {
 					break
 		        case 'persengay':
 					gatauda = body.slice(7)
-					anu = await fetchJson(`https://arugaz.herokuapp.com/api/howbucins`, {method: 'get'})
+					anu = await fetchJson(`https://arugaz.herokuapp.com/api/howgay`, {method: 'get'})
 					reply(anu.desc+anu.persen)
 					break	
 				case 'quotes':
