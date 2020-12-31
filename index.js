@@ -1071,7 +1071,7 @@ async function starts() {
 				case 'nsfwloli':
 				    try {
 						if (!isNsfw) return reply('❌ *FALSE* ❌')
-						res = await fetchJson(`https://api.lolis.life/random?nsfw=true`, {method: 'get'})
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwloli`, {method: 'get'})
 						buffer = await getBuffer(res.url)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
 					} catch (e) {
