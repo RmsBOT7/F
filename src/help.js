@@ -10,22 +10,22 @@ const help = (prefix) => {
 ┃╔═══════════════════╗
 ┃╠➥ *${prefix}sticker*
 ┃╠➥ *${prefix}stickergif*
-┃╠➥ *${prefix}tsticker*
-┃╠➥ *${prefix}nulis*
-┃╠➥ *${prefix}text3d*
-┃╠➥ *${prefix}ninjalogo*
-┃╠➥ *${prefix}wolflogo*
-┃╠➥ *${prefix}wolflogo2*
-┃╠➥ *${prefix}lionlogo*
-┃╠➥ *${prefix}blackpink*
-┃╠➥ *${prefix}phlogo*
-┃╠➥ *${prefix}epep*
-┃╠➥ *${prefix}snowlogo*
-┃╠➥ *${prefix}water*
-┃╠➥ *${prefix}joker*
-┃╠➥ *${prefix}sketchimage*
-┃╠➥ *${prefix}nenlogo*
-┃╠➥ *${prefix}glitch*
+┃╠➥ *${prefix}tsticker [Text]*
+┃╠➥ *${prefix}nulis [Text]*
+┃╠➥ *${prefix}text3d [Text]*
+┃╠➥ *${prefix}ninjalogo [Text]*
+┃╠➥ *${prefix}wolflogo [Text]*
+┃╠➥ *${prefix}wolflogo2 [Text]*
+┃╠➥ *${prefix}lionlogo [Text]*
+┃╠➥ *${prefix}blackpink [Text]*
+┃╠➥ *${prefix}phlogo [Text]*
+┃╠➥ *${prefix}epep [Text]*
+┃╠➥ *${prefix}snowlogo [Text]*
+┃╠➥ *${prefix}water [Text]*
+┃╠➥ *${prefix}joker [Text]*
+┃╠➥ *${prefix}sketchimage [Url]*
+┃╠➥ *${prefix}nenlogo [Text]*
+┃╠➥ *${prefix}glitch [Text]*
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙉𝙎𝙁𝙒 ❭ ❀°━━━━━⊱
 ┃╔═══════════════════╗
