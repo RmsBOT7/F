@@ -605,6 +605,15 @@ async function starts() {
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
+                case 'crismes':
+                      if (args.length < 1) return reply('Teks nya mana?')
+                      gh = body.slice(9)
+                      gl1 = gh.split("|")[0];
+                      reply(mess.wait)
+                      anu = await fetchJson(`https://zeksapi.herokuapp.com/api/crismes?text1=${gl1}&apikey=aqip2020`, {method: 'get'})
+                      buff = await getBuffer(anu.result)
+                      client.sendMessage(from, buff, image, {quoted: mek})
+                      break
                 case 'marvellogo':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(9)
