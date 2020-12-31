@@ -139,7 +139,7 @@ async function starts() {
 
 			const botNumber = client.user.jid
 			const ownerNumber = ["6281281872699@s.whatsapp.net"] // replace this with your number
-			const adminbotnumber = ["6281313505348@s.whatsapp.net"]
+			const adminbotnumber = ["6281285634078@s.whatsapp.net"]
 			const frendsowner = ["6283173142772@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
@@ -858,7 +858,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/cry`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -868,7 +868,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/kiss`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -888,7 +888,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -898,7 +898,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -908,7 +908,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -918,7 +918,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
@@ -928,7 +928,7 @@ async function starts() {
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/waifu`, {method: 'get'})
 						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih jangan lupa donasi'})
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
 						reply('❌ *ERROR* ❌')
