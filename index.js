@@ -139,7 +139,7 @@ async function starts() {
 
 			const botNumber = client.user.jid
 			const ownerNumber = ["6281281872699@s.whatsapp.net"] // replace this with your number
-			const adminbotnumber = ["6281286523253@s.whatsapp.net"]
+			const adminbotnumber = ["6281313505348@s.whatsapp.net"]
 			const frendsowner = ["6283173142772@s.whatsapp.net"]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
