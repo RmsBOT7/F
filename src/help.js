@@ -94,38 +94,39 @@ const help = (prefix) => {
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝙊𝙏𝙃𝙀𝙍 ❭ ❀°━━━━⊱
 ┃╔═══════════════════╗
-┃╠➥ *${prefix}gtts id*
+┃╠➥ *${prefix}gtts id [Text]*
 ┃╠➥ *${prefix}truth*
 ┃╠➥ *${prefix}dare*
 ┃╠➥ *${prefix}wait*
 ┃╠➥ *${prefix}blocklist*
 ┃╠➥ *${prefix}simi*
-┃╠➥ *${prefix}tiktokstalk*
+┃╠➥ *${prefix}tiktokstalk [Text]*
 ┃╠➥ *${prefix}url2img*
 ┃╠➥ *${prefix}imagerondom*
 ┃╠➥ *${prefix}toimg*
-┃╠➥ *${prefix}artinama*
-┃╠➥ *${prefix}kbbi*
-┃╠➥ *${prefix}ceckjodoh*
-┃╠➥ *${prefix}igstalk*
-┃╠➥ *${prefix}shorturl*
-┃╠➥ *${prefix}infocuaca*
+┃╠➥ *${prefix}artinama [Text]*
+┃╠➥ *${prefix}kbbi [Text]*
+┃╠➥ *${prefix}ceckjodoh [Text]*
+┃╠➥ *${prefix}igstalk [Text]*
+┃╠➥ *${prefix}shorturl [Text]*
+┃╠➥ *${prefix}infocuaca [Text]*
 ┃╠➥ *${prefix}infogempa*
-┃╠➥ *${prefix}wiki*
-┃╠➥ *${prefix}chord*
+┃╠➥ *${prefix}wiki [Text]*
+┃╠➥ *${prefix}chord [Text]*
 ┃╠➥ *${prefix}cerpen*
 ┃╠➥ *${prefix}watak*
-┃╠➥ *${prefix}ttp*
+┃╠➥ *${prefix}ttp [Text]*
 ┃╠➥ *${prefix}rate*
-┃╠➥ *${prefix}chord*
+┃╠➥ *${prefix}chord [Text]*
 ┃╠➥ *${prefix}indohot*
 ┃╠➥ *${prefix}bucin*
 ┃╠➥ *${prefix}lirik*
-┃╠➥ *${prefix}persenbucin*
+┃╠➥ *${prefix}persenbucin [Text]*
+┃╠➥ *${prefix}persengay [Text]*
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝙎𝙊𝙐𝙉𝘿 ❭ ❀°━━━━⊱
 ┃╔═══════════════════╗
-┃╠➥ *${prefix}joox*
+┃╠➥ *${prefix}joox [Text]*
 ┃╚═══════════════════╝
 ┣━━━━━━━━━━━━━━━━━━━━━⊱
 ┃╔══════════════╗
