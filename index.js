@@ -605,15 +605,6 @@ async function starts() {
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
-                case 'crismes':
-                      if (args.length < 1) return reply('Teks nya mana?')
-                      gh = body.slice(9)
-                      gl1 = gh.split("|")[0];
-                      reply(mess.wait)
-                      anu = await fetchJson(`https://zeksapi.herokuapp.com/api/crismes?text1=${gl1}&apikey=aqip2020`, {method: 'get'})
-                      buff = await getBuffer(anu.result)
-                      client.sendMessage(from, buff, image, {quoted: mek})
-                      break
                 case 'marvellogo':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(9)
@@ -1496,6 +1487,13 @@ async function starts() {
                     teks = `${body.slice(8)}`
                     if (teks.length > 15) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 15 kalimat', text, {quoted: mek})
                     buff = await getBuffer(`https://docs-jojo.herokuapp.com/api/blackpink?text=${teks}`, {method: 'get'})
+                    client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
+			     	break
+				case 'crismes':
+              	    if (args.length < 1) return reply('teksnya mana kak?')
+                    teks = `${body.slice(8)}`
+                    if (teks.length > 10) return client.sendMessage(from, 'Teksnya kepanjangan, Maksimal 10 kalimat', text, {quoted: mek})
+                    buff = await getBuffer(`https://zeksapi.herokuapp.com/api/crismes?text=${teks}&apikey=aqip2020`, {method: 'get'})
                     client.sendMessage(from, buff, image, {quoted: mek, caption: `${teks}`})
 			     	break
 				case 'grafity':
