@@ -58,22 +58,22 @@ const help = (prefix) => {
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝙂𝙍𝙊𝙐𝙋 ❭ ❀°━━━━⊱
 ┃╔═══════════════════╗
-┃╠➥ *${prefix}add* [62xxx]
-┃╠➥ *${prefix}kick* [tag]
+┃╠➥ *${prefix}add [62xxx]*
+┃╠➥ *${prefix}kick [tag]*
 ┃╠➥ *${prefix}setpp*
 ┃╠➥ *${prefix}tagme*
-┃╠➥ *${prefix}demote* [tag]
-┃╠➥ *${prefix}promote* [tag]
-┃╠➥ *${prefix}grup* [buka/tutup]
+┃╠➥ *${prefix}demote [tag]*
+┃╠➥ *${prefix}promote [tag]*
+┃╠➥ *${prefix}grup [buka/tutup]*
 ┃╠➥ *${prefix}groupinfo*
 ┃╠➥ *${prefix}linkgroup*
 ┃╠➥ *${prefix}otagall*
 ┃╠➥ *${prefix}listadmin*
-┃╠➥ *${prefix}promote* [tag]
-┃╠➥ *${prefix}grup* [buka/tutup]
-┃╠➥ *${prefix}welcome* [1/0]
-┃╠➥ *${prefix}nsfw* [1/0]
-┃╠➥ *${prefix}simih* [1/0]
+┃╠➥ *${prefix}promote [tag]*
+┃╠➥ *${prefix}grup [buka/tutup]*
+┃╠➥ *${prefix}welcome [1/0]*
+┃╠➥ *${prefix}nsfw [1/0]*
+┃╠➥ *${prefix}simih [1/0]*
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝙊𝙒𝙉𝙀𝙍 ❭ ❀°━━━━⊱
 ┃╔═══════════════════╗
@@ -81,7 +81,7 @@ const help = (prefix) => {
 ┃╠➥ *${prefix}clearall*
 ┃╠➥ *${prefix}setprefix*
 ┃╠➥ *${prefix}leave*
-┃╠➥ *${prefix}clone* [tag]
+┃╠➥ *${prefix}clone [tag]*
 ┃╠➥ *${prefix}block*
 ┃╠➥ *${prefix}unblock*
 ┃╠➥ *${prefix}getses*
