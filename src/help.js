@@ -13,19 +13,20 @@ const help = (prefix) => {
 ┃╠➥ *${prefix}tsticker [Text]*
 ┃╠➥ *${prefix}nulis [Text]*
 ┃╠➥ *${prefix}text3d [Text]*
-┃╠➥ *${prefix}ninjalogo [Text]*
-┃╠➥ *${prefix}wolflogo [Text]*
-┃╠➥ *${prefix}wolflogo2 [Text]*
-┃╠➥ *${prefix}lionlogo [Text]*
+┃╠➥ *${prefix}ninjalogo [Text]|[Text]*
+┃╠➥ *${prefix}wolflogo [Text]|[Text]*
+┃╠➥ *${prefix}wolflogo2 [Text]|[Text]*
+┃╠➥ *${prefix}lionlogo [Text]|[Text]*
 ┃╠➥ *${prefix}blackpink [Text]*
-┃╠➥ *${prefix}phlogo [Text]*
+┃╠➥ *${prefix}phlogo [Text]|[Text]*
 ┃╠➥ *${prefix}epep [Text]*
-┃╠➥ *${prefix}snowlogo [Text]*
-┃╠➥ *${prefix}water [Text]*
+┃╠➥ *${prefix}snowlogo [Text]|[Text]*
+┃╠➥ *${prefix}water [Text]|[Text]*
 ┃╠➥ *${prefix}joker [Text]*
 ┃╠➥ *${prefix}sketchimage [Url]*
-┃╠➥ *${prefix}nenlogo [Text]*
-┃╠➥ *${prefix}glitch [Text]*
+┃╠➥ *${prefix}nenlogo [Text]|[Text]*
+┃╠➥ *${prefix}glitch [Text]|[Text]*
+┃╠➥ *${prefix}marvellogo [Text]|[Text]*
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙉𝙎𝙁𝙒 ❭ ❀°━━━━━⊱
 ┃╔═══════════════════╗
