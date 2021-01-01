@@ -493,6 +493,12 @@ async function starts() {
 					buffer = await getBuffer(`https://mhankbarbars.herokuapp.com/api/emoji2png?emoji=${teks}`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: ' '+teks})
 					break
+				case 'qrcode':
+					const tex = encodeURIComponent(body.slice(8))
+					if (!tex) return client.sendMessage(from, 'masukan teks/url!', text, {quoted: mek})
+					const buff = await getBuffer(`https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${tex}`)
+					client.sendMessage(from, buff, image, {quoted: mek})
+					break
 				case 'lovemake':
 					if (args.length < 1) return reply('Teksnya mana um')
 					love = body.slice(10)
