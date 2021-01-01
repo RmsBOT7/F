@@ -1471,7 +1471,7 @@ async function starts() {
 				case 'ytmp4':
 					if (args.length < 1) return reply('Urlnya mana um?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
-					anu = await fetchJson(`https://mhankbarbar.herokuapp.com/api/ytv?url=${args[0]}&apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
+					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/ytv?url=${args[0]}&apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = `*Title* : ${anu.title}`
 					thumb = await getBuffer(anu.thumb)
