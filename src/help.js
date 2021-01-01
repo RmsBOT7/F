@@ -13,20 +13,23 @@ const help = (prefix) => {
 ┃╠➥ *${prefix}tsticker [Text]*
 ┃╠➥ *${prefix}nulis [Text]*
 ┃╠➥ *${prefix}text3d [Text]*
-┃╠➥ *${prefix}ninjalogo [Text]|[Text]*
-┃╠➥ *${prefix}wolflogo [Text]|[Text]*
-┃╠➥ *${prefix}wolflogo2 [Text]|[Text]*
-┃╠➥ *${prefix}lionlogo [Text]|[Text]*
+┃╠➥ *${prefix}ninjalogo [Text] | [Text]*
+┃╠➥ *${prefix}wolflogo [Text] | [Text]*
+┃╠➥ *${prefix}wolflogo2 [Text] | [Text]*
+┃╠➥ *${prefix}lionlogo [Text] | [Text]*
 ┃╠➥ *${prefix}blackpink [Text]*
-┃╠➥ *${prefix}phlogo [Text]|[Text]*
+┃╠➥ *${prefix}phlogo [Text] | [Text]*
 ┃╠➥ *${prefix}epep [Text]*
-┃╠➥ *${prefix}snowlogo [Text]|[Text]*
-┃╠➥ *${prefix}water [Text]|[Text]*
+┃╠➥ *${prefix}snowlogo [Text] | [Text]*
+┃╠➥ *${prefix}water [Text] | [Text]*
 ┃╠➥ *${prefix}joker [Text]*
 ┃╠➥ *${prefix}sketchimage [Url]*
-┃╠➥ *${prefix}nenlogo [Text]|[Text]*
-┃╠➥ *${prefix}glitch [Text]|[Text]*
-┃╠➥ *${prefix}marvellogo [Text]|[Text]*
+┃╠➥ *${prefix}nenlogo [Text] | [Text]*
+┃╠➥ *${prefix}glitch [Text] | [Text]*
+┃╠➥ *${prefix}marvellogo [Text] | [Text]*
+┃╠➥ *${prefix}firetext [Text] | [Text]*
+┃╠➥ Note : Jika Ada Simbol | Kalian Wajib Gunakan
+┃╠➥ Supaya Tidak Error Jadinya Thanks Bro :)
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝙉𝙎𝙁𝙒 ❭ ❀°━━━━━⊱
 ┃╔═══════════════════╗
@@ -92,10 +95,12 @@ const help = (prefix) => {
 ┃╠➥ *${prefix}spamsms [81xx]*
 ┃╠➥ *${prefix}spamcall [81xx]*
 ┃╠➥ *${prefix}spamgmail*
+┃╠➥ Note : Jangan Gunakan Kode 
+┃╠➥ Bahasa 0 & +62 & 62
 ┃╚═══════════════════╝
 ┣━━━━°❀ ❬ 𝙊𝙏𝙃𝙀𝙍 ❭ ❀°━━━━⊱
 ┃╔═══════════════════╗
-┃╠➥ *${prefix}gtts id [Text]*
+┃╠➥ *${prefix}tts [Text]*
 ┃╠➥ *${prefix}truth*
 ┃╠➥ *${prefix}dare*
 ┃╠➥ *${prefix}wait*
