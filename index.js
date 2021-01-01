@@ -776,6 +776,18 @@ async function starts() {
 					break				
                 case `assalamualaikum`:
                client.reply(from, `Waalaikumsalam ${pushname}:)`)
+                break				
+                case `help`:
+               client.reply(from, `Hallo Kak ${pushname} Jangan Lupa Masuk Ke Group Kami :)\nhttps://chat.whatsapp.com/IABVod4NWrpB4PIl5rRxRy`)
+                break				
+                case `help`:
+               client.reply(from, `Hallo Kak ${pushname} Mau Gabung In Bot Ke Group Kamu ? Cukup Bayar 10k/Perbulan`)
+                break				
+                case `menu`:
+               client.reply(from, `Hallo Kak ${pushname} Jangan Lupa Masuk Ke Group Kami :)\nhttps://chat.whatsapp.com/IABVod4NWrpB4PIl5rRxRy`)
+                break				
+                case `menu`:
+               client.reply(from, `Hallo Kak ${pushname} Mau Gabung In Bot Ke Group Kamu ? Cukup Bayar 10k/Perbulan`)
                 break
                 case 'speed':
                     const timestamp = speed();
