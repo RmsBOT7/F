@@ -371,6 +371,20 @@ async function starts() {
 				    yeh = `https://chat.whatsapp.com/${linkgc}\n\nlink Group *${groupName}*`
 				    client.sendMessage(from, yeh, text, {quoted: mek})
 			        break
+			        case 'help':
+				    if (!isGroup) return reply(mess.only.group)
+				    if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+				    linkgc = await client.groupInviteCode (from)
+				    yeh = `Jangan Lupa Masuk Ke Group Kami Lord \n\nlink Group : https://chat.whatsapp.com/IABVod4NWrpB4PIl5rRxRy*`
+				    client.sendMessage(from, yeh, text, {quoted: mek})
+			        break
+			        case 'menu':
+				    if (!isGroup) return reply(mess.only.group)
+				    if (!isBotGroupAdmins) return reply(mess.only.Badmin)
+				    linkgc = await client.groupInviteCode (from)
+				    yeh = `Jangan Lupa Masuk Ke Group Kami Lord \n\nlink Group : https://chat.whatsapp.com/IABVod4NWrpB4PIl5rRxRy*`
+				    client.sendMessage(from, yeh, text, {quoted: mek})
+			        break
 				case 'hidetag':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isOwner) return reply('kamu siapa?')
