@@ -136,13 +136,13 @@ const help = (prefix) => {
 ┃╚═══════════════════╝
 ┣━━━━━━━━━━━━━━━━━━━━━⊱
 ┃╔════════════════════╗
-┃┃*WhatsApp Owner :*
+┃┃ *WhatsApp Owner:*
 ┃┃https://wa.me/62821281872699
-┃┃*Website :*
+┃┃ *Website:*
 ┃┃https://itsmeikybot.github.io/
-┃┃*Github :*
+┃┃ *Github:*
 ┃┃https://github.com/itsmeikybot
-┃┃*Official Team :*
+┃┃ *Official Team:*
 ┃┃https://sundaxploitindonesia.com/
 ┃╚════════════════════╝
 ┣━━━━━━━━━━━━━━━━━━━━━┓
