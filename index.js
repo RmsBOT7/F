@@ -946,46 +946,6 @@ async function starts() {
 						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
 					}
 					break
-			    case 'nsfwtrap':
-				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
-						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
-					} catch (e) {
-						console.log(`Error :`, color(e,'red'))
-						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
-					}
-					break
-			    case 'nsfwneko':
-				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
-						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
-					} catch (e) {
-						console.log(`Error :`, color(e,'red'))
-						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
-					}
-					break
-			    case 'nsfwblowjob':
-				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
-						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
-					} catch (e) {
-						console.log(`Error :`, color(e,'red'))
-						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
-					}
-					break
-			    case 'hentai':
-				    try {
-						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
-						buffer = await getBuffer(res.result)
-						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Jangan Dipake Buat Bacol Btw Jan Lupa Donasi Dong :v'})
-					} catch (e) {
-						console.log(`Error :`, color(e,'red'))
-						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
-					}
-					break
 			    case 'loli':
 				    try {
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/waifu`, {method: 'get'})
@@ -1121,8 +1081,52 @@ async function starts() {
 					break
 			    case 'randomhentai':
 				    try {
-						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
+						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
+					}
+					break
+			    case 'hentai':
+				    try {
+						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/hentai`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
+					}
+					break
+			    case 'nsfwtrap':
+				    try {
+						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwtrap`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
+					}
+					break
+			    case 'nsfwneko':
+				    try {
+						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwneko`, {method: 'get'})
+						buffer = await getBuffer(res.result)
+						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
+					} catch (e) {
+						console.log(`Error :`, color(e,'red'))
+						reply('❌ 𝗘𝗥𝗢𝗥 𝗠𝗨𝗡𝗚𝗞𝗜𝗡 𝗔𝗣𝗜 𝗞𝗘𝗬 𝗥𝗨𝗦𝗔𝗞 ❌')
+					}
+					break
+			    case 'nsfwblowjob':
+				    try {
+						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
+						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
 					} catch (e) {
@@ -1132,7 +1136,7 @@ async function starts() {
 					break
 				case 'nsfwloli':
 				    try {
-						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
+						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwloli`, {method: 'get'})
 						buffer = await getBuffer(res.url)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
@@ -1143,7 +1147,7 @@ async function starts() {
 					break
 			    case 'nsfwblowjob':
 				    try {
-						if (!isNsfw) return reply('❌ 𝗘𝗥𝗢𝗥 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
+						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
 						res = await fetchJson(`https://tobz-api.herokuapp.com/api/nsfwblowjob`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Jangan jadiin bahan buat comli om'})
