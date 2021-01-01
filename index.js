@@ -585,6 +585,15 @@ async function starts() {
 					buff = await getBuffer(anu.result)
 					client.sendMessage(from, buff, image, {quoted: mek})
 					break
+				case 'firetext':
+					if (args.length < 1) return reply(mess.blank)
+					tels = body.slice(7)
+					if (tels.ength > 10) return reply('Teksnya kepanjangan, maksimal 9 karakter')
+					reply(mess.wait)
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/tlight?text=${tels}&apikey=xptnbot352`, {method: 'get'})
+					buff = await getBuffer(anu.result)
+					client.sendMessage(from, buff, image, {quoted: mek})
+					break
                 case 'wolflogo':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(9)
@@ -595,26 +604,43 @@ async function starts() {
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
-                case 'snowlogo':
-                      if (args.length < 1) return reply('Teks nya mana?')
-                      gh = body.slice(9)
-                      gl1 = gh.split("|")[0];
-                      gl2 = gh.split("|")[1];
-                      reply(mess.wait)
-                      anu = await fetchJson(`https://zeksapi.herokuapp.com/api/snowwrite?text1=${gl1}&text2=${gl2}&apikey=xptnbot352`, {method: 'get'})
-                      buff = await getBuffer(anu.result)
-                      client.sendMessage(from, buff, image, {quoted: mek})
-                      break
-                case 'marvellogo':
-                      if (args.length < 1) return reply('Teks nya mana?')
-                      gh = body.slice(9)
-                      gl1 = gh.split("|")[0];
-                      gl2 = gh.split("|")[1];
-                      reply(mess.wait)
-                      anu = await fetchJson(`https://zeksapi.herokuapp.com/api/marvellogo?text1=${gl1}&text2=${gl2}&apikey=xptnbot352`, {method: 'get'})
-                      buff = await getBuffer(anu.result)
-                      client.sendMessage(from, buff, image, {quoted: mek})
-                      break
+				case 'snowlogo':
+					var gh = body.slice(10)
+					var gbl7 = gh.split("|")[0];
+					var gbl8 = gh.split("|")[1];
+					if (args.length < 1) return reply('Teksnya mana um')
+					reply(mess.wait)
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/snowwrite?text1=${gbl7}&text2=${gbl8}&apikey=xptnbot352`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'marvellogo':
+					var gh = body.slice(5)
+					var gbl5 = gh.split("|")[0];
+					var gbl6 = gh.split("|")[1];
+					if (args.length < 1) return reply('Teksnya mana um')
+					reply(mess.wait)
+					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/marvellogo?text1=${gbl5}&text2=${gbl6}&apikey=xptnbot352`, {method: 'get'})
+					buffer = await getBuffer(anu.result)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+                case 'testing':
+					var gh = body.slice(9)
+					coli1 = gh.split("|")[0];
+					coli2 = gh.split("|")[1];
+					if (args.length < 1) return reply('Teks nya mana?')
+					reply(mess.wait)
+					buffer = await getBuffer(`https://zeksapi.herokuapp.com/api/watercolour?text1=${coli1}&text2=${coli2}&apikey=xptnbot352`)
+					client.sendMessage(from, buffer, image, {quoted: mek})
+					break
+				case 'thunder':
+					if (args.length < 1) return reply('Teksnya mana um')
+					thun = body.slice(9)
+					if (thun.length > 10) return reply('Teksnya kepanjangan, maksimal 9 karakter')
+					reply(mess.wait)
+					buffer = await getBuffer(`https://api.vhtear.com/thundertext?text=${thun}&apikey=ANTIGRATISNIHANJENKKK`)
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: ' '+thun})
+					break
                 case 'phlogo':
                       if (args.length < 1) return reply('Teks nya mana?')
                       gh = body.slice(9)
@@ -679,7 +705,7 @@ async function starts() {
                 client.groupUpdateDescription(from, `${body.slice(9)}`)
                 client.sendMessage(from, 'Succes, Ganti Deskripsi Grup', text, {quoted: mek})
                 break
-				case 'gtts':
+				case 'tts':
 					if (args.length < 1) return client.sendMessage(from, 'Kode bahasanya mana om?', text, {quoted: mek})
 					const gtts = require('./lib/gtts')(args[0])
 					if (args.length < 2) return client.sendMessage(from, 'Textnya mana om', text, {quoted: mek})
