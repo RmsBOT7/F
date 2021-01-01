@@ -614,16 +614,6 @@ async function starts() {
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, image, {quoted: mek})
 					break
-				case 'marvellogo':
-					var gh = body.slice(5)
-					var gbl5 = gh.split("|")[0];
-					var gbl6 = gh.split("|")[1];
-					if (args.length < 1) return reply('Teksnya mana um')
-					reply(mess.wait)
-					anu = await fetchJson(`https://zeksapi.herokuapp.com/api/marvellogo?text1=${gbl5}&text2=${gbl6}&apikey=xptnbot352`, {method: 'get'})
-					buffer = await getBuffer(anu.result)
-					client.sendMessage(from, buffer, image, {quoted: mek})
-					break
                 case 'testing':
 					var gh = body.slice(9)
 					coli1 = gh.split("|")[0];
@@ -658,6 +648,16 @@ async function starts() {
                       gl2 = gh.split("|")[1];
                       reply(mess.wait)
                       anu = await fetchJson(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo2&text1=${gl1}&text2=${gl2}`, {method: 'get'})
+                      buff = await getBuffer(anu.result)
+                      client.sendMessage(from, buff, image, {quoted: mek})
+                      break
+                case 'wolflogo2':
+                      if (args.length < 1) return reply('Teks nya mana?')
+                      gh = body.slice(9)
+                      gl11 = gh.split("|")[0];
+                      gl22 = gh.split("|")[1];
+                      reply(mess.wait)
+                      anu = await fetchJson(`https://zeksapi.herokuapp.com/api/marvellogo?text1=${gl11}&text2=${gb22}&apikey=xptnbot352`, {method: 'get'})
                       buff = await getBuffer(anu.result)
                       client.sendMessage(from, buff, image, {quoted: mek})
                       break
