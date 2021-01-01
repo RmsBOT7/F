@@ -136,7 +136,8 @@ const help = (prefix) => {
 ┃╚═══════════════════╝
 ┣━━━━━━━━━━━━━━━━━━━━━⊱
 ┃╔════════════════════╗
-┃┃*WhatsApp Owner :* 0821-2818-72699
+┃┃*WhatsApp Owner :*
+┃┃https://wa.me/62821281872699
 ┃┃*Website :*
 ┃┃https://itsmeikybot.github.io/
 ┃┃*Github :*
