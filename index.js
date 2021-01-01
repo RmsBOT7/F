@@ -1082,7 +1082,7 @@ async function starts() {
 			    case 'randomhentai':
 				    try {
 						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
-						res = await fetchJson(`https://mhankbarbars.herokuapp.com/api/random/hentai?apiKey=${B4w56Fy3WQnfEyUNvQy8}`, {method: 'get'})
+						res = await fetchJson(`https://mhankbarbars.herokuapp.com/api/random/hentai?apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
 					} catch (e) {
@@ -1093,7 +1093,7 @@ async function starts() {
 			    case 'hentai':
 				    try {
 						if (!isNsfw) return reply('❌ 𝗙𝗜𝗧𝗨𝗥 𝗡𝗦𝗙𝗪 𝗕𝗘𝗟𝗨𝗠 𝗔𝗞𝗧𝗜𝗙 ❌')
-						res = await fetchJson(`https://mhankbarbars.herokuapp.com/api/random/hentai?apiKey=${B4w56Fy3WQnfEyUNvQy8}`, {method: 'get'})
+						res = await fetchJson(`https://mhankbarbars.herokuapp.com/api/random/hentai?apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
 						buffer = await getBuffer(res.result)
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Nih Sanaa Coliii Ngab'})
 					} catch (e) {
@@ -1308,7 +1308,7 @@ async function starts() {
                    client.sendMessage(from, buffer, image, {quoted: mek, caption: hasil})
                    break
                 case 'infocuaca':
-                   anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/cuaca?q=${body.slice(6)}&apiKey=${B4w56Fy3WQnfEyUNvQy8}`, {method: 'get'})
+                   anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/cuaca?q=${body.slice(6)}&apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
                    if (anu.error) return reply(anu.error)
                    hasil = ` *Tempat : ${anu.tempat}\nCuaca : ${anu.cuaca}\nAngin : ${anu.angin}\nSuhu : ${anu.suhu}\nKelembapan : ${anu.kelembapan}`
                    client.sendMessage(from, hasil, text, {quoted: mek})
@@ -1487,7 +1487,7 @@ async function starts() {
 				case 'yt2mp3':
 					if (args.length < 1) return reply('Urlnya mana um?')
 					if(!isUrl(args[0]) && !args[0].includes('youtu')) return reply(mess.error.Iv)
-					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/yta?url=${args[0]}&apiKey=${B4w56Fy3WQnfEyUNvQy8}`, {method: 'get'})
+					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/yta?url=${args[0]}&apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = `*Title* : ${anu.title}\n*Filesize* : ${anu.filesize}`
 					thumb = await getBuffer(anu.thumb)
@@ -1497,7 +1497,7 @@ async function starts() {
 					break
 				case 'ytsearch':
 					if (args.length < 1) return reply('Yang mau di cari apaan? titit?')
-					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/ytsearch?q=${body.slice(10)}&apiKey=${B4w56Fy3WQnfEyUNvQy8}`, {method: 'get'})
+					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/ytsearch?q=${body.slice(10)}&apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					teks = '=================\n'
 					for (let i of anu.result) {
@@ -1509,7 +1509,7 @@ async function starts() {
 					if (args.length < 1) return reply('Urlnya mana um?')
 					if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(mess.error.Iv)
 					reply(mess.wait)
-					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/tiktok?url=${args[0]}&apiKey=${B4w56Fy3WQnfEyUNvQy8}`, {method: 'get'})
+					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/tiktok?url=${args[0]}&apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					buffer = await getBuffer(anu.result)
 					client.sendMessage(from, buffer, video, {quoted: mek})
@@ -1665,7 +1665,7 @@ async function starts() {
 					if (args.length < 2) return reply('Urlnya mana um?')
 					if (!isUrl(args[1])) return reply(mess.error.Iv)
 					reply(mess.wait)
-					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/url2image?tipe=${args[0]}&url=${args[1]}&apiKey=${B4w56Fy3WQnfEyUNvQy8}`, {method: 'get'})
+					anu = await fetchJson(`https://mhankbarbars.herokuapp.com/api/url2image?tipe=${args[0]}&url=${args[1]}&apiKey=B4w56Fy3WQnfEyUNvQy8`, {method: 'get'})
 					if (anu.error) return reply(anu.error)
 					buff = await getBuffer(anu.result)
 					client.sendMessage(from, buff, image, {quoted: mek})
