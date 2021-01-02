@@ -28,6 +28,8 @@ const help = (prefix) => {
 ┃╠➥ *${prefix}glitch [Text] | [Text]*
 ┃╠➥ *${prefix}marvellogo [Text] | [Text]*
 ┃╠➥ *${prefix}firetext [Text] | [Text]*
+┃╠➥ *${prefix}qrcode [Text]*
+┃╠➥ *${prefix}thunder [Text]*
 ┃╠➥ Note : Jika Ada Simbol | Kalian Wajib Gunakan
 ┃╠➥ Supaya Tidak Error Jadinya Thanks Bro :)
 ┃╚═══════════════════╝
