@@ -1065,7 +1065,7 @@ async function starts() {
 					if (args.length < 1) return reply('Masukan Email Target Nya Lord')
 					tels = body.slice(11)
 					reply(mess.wait)
-					anu = await fetchJson(`https://arugaz.herokuapp.com/api/spamgmail?target=${tels}&jum=10`, {method: 'get'})
+					anu = await fetchJson(`http://api.naufalhosting.com/api/spamgmail?email=${tels}&jumlah=1&apikey=2bf07785728671adcb063cdf0181fc096a235afc`, {method: 'get'})
 					reply(anu.logs)
 					break	
 				case 'spamcall':
