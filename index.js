@@ -512,7 +512,7 @@ async function starts() {
 					thun = body.slice(9)
 					if (thun.length > 10) return reply('Teksnya kepanjangan, maksimal 9 karakter')
 					reply(mess.wait)
-					buffer = await getBuffer(`https://api.vhtear.com/thundertext?text=${thun}&apikey={apikey}`)
+					buffer = await getBuffer(`https://zeksapi.herokuapp.com/api/thundertext?text=${thun}&apikey=xptnbot352`)
 					client.sendMessage(from, buffer, image, {quoted: mek, caption: ' '+thun})
 					break
                 case 'stiltext':
